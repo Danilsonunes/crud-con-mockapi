@@ -1,0 +1,106 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-list p {
+    width: 560px;
+    height: 17px;
+    word-break: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#contenido {
+    width: 70vw;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.materias-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 50px;
+}
+
+.materias-lista button, .card-list button {
+    border: none;
+    border-radius: 5px;
+    background-color: #e86600;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.materias-lista button:hover, .card-list button:hover {
+    box-shadow: 2px 2px 8px #092530;
+    background-color: #00455e;
+}
+
+.card-list button{
+    height: 30px;
+    width: 75px;
+}
+
+.colores{
+    color: #e86600;
+    color: #00455e;
+    color: #c0cbd6;
+    color: #2c3e50;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+}
+
+#formulario label{
+    margin-bottom: 4px;
+}
+
+#formulario input{
+    margin-bottom: 8px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #e86600;
+}
+
+#formulario input:focus, #formulario textarea:focus{
+    outline: #00455e solid 1px;
+    border-bottom: #00455e solid 2px;
+}
+
+#formulario textarea {
+    margin-bottom: 8px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #e86600;
+}
+
+.botones {
+    width: 70vw;
+    margin: 24px auto;
+}
+
+.botones button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botones button:nth-child(2) {
+    margin-left: 8px;
+    background-color: red;
+}
